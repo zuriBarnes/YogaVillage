@@ -50,16 +50,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* // Body // */
 body {
 
 	font-size: 1.125rem;
 	font-family: 'Barlow Condensed', sans-serif;
 	background: #f1f1f1;
 }
-
-
-
+/* // Full size navBar // */
 .nav-bar {
 	background-color: var(--header-bckgrdColor);
 	position: fixed;
@@ -77,16 +75,9 @@ body {
 	align-content: center;
 }
 
-.nav_2 {
-
-
-}
-
 .nav_2-nav ul {
 	margin: 0 auto;
 	padding:0;
-
-
 }	
 
 .nav_2-nav ul li {
@@ -100,24 +91,22 @@ body {
 	color: white;
 	text-transform: uppercase;
 	font-size: 1.5rem;
-	cursor: pointer;
+
 }
 
-
-
-
+/* // main Logo // */
 
 .logo {
 	height: 2.5em;
 	font-size:2.5rem;
 	font-weight: 800;
 	margin-top: 1.3em;
-	cursor: pointer;
 }
 
 .logo a {
 	text-decoration: none;
 	color: white;
+	
 	
 }
 
@@ -132,6 +121,8 @@ body {
 	position: absolute;
 	top:26px;
 	right:55px;
+	cursor: pointer;
+	
 }
 
 .hamburger-nav::before {
@@ -142,6 +133,8 @@ body {
 	top: -8px;
 	right:0px;
 	content:'';
+	cursor: pointer;
+	
 }
 
 .hamburger-nav::after {
@@ -152,11 +145,10 @@ body {
 	top: 8px;
 	right:0px;
 	content:'';
+	cursor: pointer;
 }
-/* // Main Nav // */
 
-
- nav .menu {
+nav .menu {
 	font-size: 1.25rem;
 }
 
@@ -173,15 +165,17 @@ nav .menu ul {
 
 .menu ul li a{
 	color: white;
-	    letter-spacing: 1px;
+	letter-spacing: 1px;
+	
 }
+
+/* // Splash/Jumbotron // */
+
+
 
 .splash, main {
-
 	color: white;
-
 }
-
 
 .splash {
 	background-image: url("https://i.ibb.co/s3pK7DB/aerial-photography-of-mountain-3077332-1.jpg");
@@ -189,7 +183,6 @@ nav .menu ul {
 	width: 100%;
 	height: 25rem;
 	margin-top: 3.49rem;
-
 }
 
 .splash-heading {
@@ -199,19 +192,16 @@ nav .menu ul {
 	color: rgba(10, 10, 30, 0.6);
 }
 
-
 .splash-bio {
 	font-size: 2rem;
-	margin-top: 7.5em;
+	margin-top: 7.9em;
+	margin-left: 1.4em;
 }
-
 
 .bio {
 	margin: 1em;
 	color: black;
 	font-size: 1.4rem;
-
-
 }
 
 .splash .bio {
@@ -220,15 +210,9 @@ nav .menu ul {
 }
 
 .bio-box {
-	
-
 	font-size:1.4rem;
-	
 	color: black;
 	width: 100%;
-}
-.bio-box .bio {
-	
 }
 
 
@@ -239,22 +223,12 @@ nav .menu ul {
 	padding-left: 1rem;
 	padding-top:0.3em;
 }
-
+/* //Main Section // */
 main {
 	font-family: 'Barlow Condensed', sans-serif;
-
-
 	margin: 0 auto;
 	width: 100%;
-	
-	
 }
-
-
-
-
-
-
 
 main img {
 	width:100%;
@@ -266,15 +240,14 @@ main .img {
 }
 
 main .title {
-
-font-size: 2rem;
-font-weight: 800;
-color: black;
-
-
+	font-size: 2rem;
+	margin-top: 1em;
+	color: black;
 }
 
-
+main .title a {
+	color:black;
+}
 
 
 #myDiv {
@@ -286,23 +259,25 @@ color: black;
 	color: white;
 	position: fixed;
 	left: 6.2em;
-	/*left: 14.5rem; */
     top:0px;
 }
+
 /* // Classes Page  // */
+
 #classes {
 	margin-top: 3em;
 }
+
 .class_1 {
 	display: flex;
 	flex-direction: column;
 	margin: 2em auto;
 	background: #f1f1f1;
 	font-size: 1.4rem;
-	
 	color: black;
 	width: 100%;
 }
+
 
 .class_1 h1{
 	align-self: flex-start;
@@ -312,15 +287,16 @@ color: black;
 	margin-top: 0.45em;
 }
 
+
 .class-info {
 	margin-top:0.75rem;
 	padding: 1em;
-	
 }
 
 .class-img{
 	align-self: center;
 }
+
 .class_1 img{
 	width: 100%;
 	height: auto;
@@ -328,10 +304,13 @@ color: black;
 	align-self: center;
 }
 
+/* // Button Style // */
+
 .btn-box {
 	text-align: center;
 	margin-top: 1.3rem;
 }
+
 
 .btn {
 	margin-bottom: 3em;
@@ -339,36 +318,29 @@ color: black;
 	width: 10em;
 	border: none;
 	border-radius: 4px;
-	cursor: pointer;
 }
+
 
 .btn-green {
 	background: rgb(0,200, 100)
 }
 
-/* //  Contact Form  //*/
+/* //  Contact Form Style  //*/
+
 
  .container {
-	 width: 80%;
-	 border: 2px solid red;
-	 background: linen;
-	 margin: 5rem auto;
-	
-	 display: grid;
-	 grid-template-columns: 1fr;
-	 grid-template-rows: 3fr 1fr 1fr 1fr 2fr;
-	 grid-row-gap: 0.25em;
-
-}
-
+	height: 70vh;
+	border: 2px solid red;
+	background: linen;
+	margin: 5rem 1.2rem;
+ }
 
 .heading-flower {
 	color: white;
 	background-image: url("https://i.ibb.co/6ZwgZkT/art-blooming-botanical-2968327.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
-	box-shadow: inset 2rem 2rem 0 2rem rgba(100,200,100, 0.4);
-	
+	box-shadow: inset 2.1rem 2.1rem 0 2.1rem rgba(100,200,200, 0.6);
 }
 
 .form-info{
@@ -378,15 +350,37 @@ color: black;
 .heading{
 	text-align: center;
 	font-size: 42px;
+	width: 100%;
+}
+.form-info, .form-name, .form-email, .form-subject, .form-message{
+	margin-top: 1.4em;
 }
 
-/* // footer  //  */
+textarea {
+	width: 100%;
+	height: 12vh;
+	padding: 0;
+}
+
+#contactBtnBox {
+	text-align: center;
+}
+
+.contact-btn {
+
+	padding: 0.75em;
+	width: 10em;
+	border: none;
+	border-radius: 4px;
+}
+
+/* // footer Style  //  */
+
 footer {
 	width: 100%;
 	height: 4rem;
 	background: rgba(122,122, 122, 0.6);
-
-
 }
+
 
 

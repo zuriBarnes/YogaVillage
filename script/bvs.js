@@ -34,7 +34,6 @@ function switchIt() {
   }
 
 
-  let jumbotronMsg = document.querySelector(".splash-bio");
- jumbotronMsg.innerHTML = `Yoga Village Sedona, Arizona`;
+
 
 
