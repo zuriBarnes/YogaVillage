@@ -323,7 +323,7 @@ main .title a {
 
 .btn-green {
 	background: transparent;
-	border: 1px solid var(--header-bckgrdColor);
+	border: 2px solid var(--header-bckgrdColor);
 }
 
 /* //  Contact Form Style  //*/
