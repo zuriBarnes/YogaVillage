@@ -322,7 +322,8 @@ main .title a {
 
 
 .btn-green {
-	background: rgb(0,200, 100)
+	background: transparent;
+	border: 1px solid var(--header-bckgrdColor);
 }
 
 /* //  Contact Form Style  //*/
